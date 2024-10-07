@@ -1,0 +1,60 @@
+.header{
+    background-color: red;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+body{
+    background-color: rgb(87, 14, 23);
+}
+
+.txtBlanc{
+    color:white;
+}
+
+#selectNotes{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.boutonBody{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgb(255, 242, 57);
+    border: 2px solid black;
+    min-width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boutonBody:active{
+    background-color: antiquewhite;
+}
+
+.boutonPlay{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
