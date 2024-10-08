@@ -20,11 +20,11 @@
   <header>
     <div class="container-fluid header lora">
         <div class="row">
-            <div class="col col-lg-2">Apprendre la flute</div>
+            <div class="col col-lg-2 grosTitre">Apprendre la flute</div>
             <div class="col col-lg-4"></div>
-            <div class="col col-lg-2"><a href="Notes.html">Notes</a></div>
-            <div class="col col-lg-2"><a href="Partition.html">Partition</a></div>
-            <div class="col col-lg-2"><a href="Reste.html">Reste</a></div>
+            <div class="col col-lg-2 beauLien"><a href="Notes.html">Notes</a></div>
+            <div class="col col-lg-2 beauLien"><a href="Partition.html">Partition</a></div>
+            <div class="col col-lg-2 beauLien"><a href="Reste.html">Reste</a></div>
         </div>
 </header>
 
@@ -34,7 +34,7 @@
   <div class="container-fluid txtBlanc">
       <div class="row">
         <!-- Petite boite de gauche avec les boutons -->
-          <div class="col col-lg-4 txtBlanc" id="selectNotes">
+          <div class="col col-lg-4 txtBlanc blocGauche" id="selectNotes">
             <div class="container-fluid">
               <div class="row">
                 <div class="col">
@@ -62,8 +62,14 @@
                 </div>
               </div>
               <div class="row">
+                <div class="col">
+                  <button onClick="enableAlterations()" class="boutonBody" >Avec alterations</button>
+                  <button onClick="disableAlterations()" class="boutonBody" >Sans alterations</button>
+                </div>
+              </div>
+              <div class="row">
               <div class="col">
-                <strong class="fa-solid fa-play fa-5x noir boutonPlay" id="boutonPlay" onClick="nextSon()"></strong>
+                <strong class="fa-solid fa-play fa-5x noir boutonPlay" id="boutonPlay" onClick="play()"></strong>
               </div>
             </div>
 
@@ -71,9 +77,28 @@
             </div>
           </div>
           <div class="col col-lg-8">
-            <h1 id="texteNote">Chalut</h1>
+            <div class="h-100 d-flex flex-column justify-content-center">
+              <h1 id="texteNote">Chalut</h1>
+            </div>
           </div>
+          
       </div>
+  </div>
+  <div class="container-fluid txtBlanc">
+    <div class="row">
+      <div class="col col-lg-2">
+        <h2>Régler le temps entre chaque note</h2>
+      </div>
+      <div class="col col-lg-2">
+        <h1 id="tempsReglage">10 secondes</h1>
+      </div>
+      <div class="col col-lg-1">
+        <button class="boutonBody" onClick="augmenterTemps()"><h1>+</h1></button>
+      </div>
+      <div class="col col-lg-1">
+        <button class="boutonBody" onClick="reduireTemps()"><h1>-</h1></button>
+      </div>
+    </div>
   </div>
 
   <script src="js.js"></script>

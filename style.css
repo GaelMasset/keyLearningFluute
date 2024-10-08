@@ -9,12 +9,41 @@
     border-top: 3px solid black;
 }
 
+.grosTitre{
+    text-align: center;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.beauLien{
+    color: red;
+    text-align: center;
+}
+.beauLien:hover{
+    background-color: aqua;
+    border: 5px solid black;
+}
+
 body{
     background-color: rgb(87, 14, 23);
 }
 
+.blocGauche{
+    background-color: rgb(206, 96, 22);
+}
+
 .txtBlanc{
     color:white;
+}
+
+#boxAvcNote{
+    background-color: rgb(206,96,22);
+}
+
+#texteNote{
+    text-align: center;
+    
+    margin-top: 10px;
 }
 
 #selectNotes{
@@ -49,12 +78,8 @@ body{
 }
 
 .boutonPlay{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:0.5em;
+    margin-right: 0.5em;
 }
