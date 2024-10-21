@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+
+#icone{
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 50px;
+  min-height: 50px;
+
+  display: flex;
+    margin: auto;
+}
+
+#tire {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#barrenav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.elementNav{
+    padding: 10px;
+
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    background-color: var(--couleurFond);
+    border-radius: 20px;
+
+    transition: background-color 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+
+.elementNav:hover{
+    background-color: var(--couleurFondHovered);
+    border-radius: 20px;
+}
+
+.police_texte {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
