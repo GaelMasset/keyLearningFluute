@@ -53,46 +53,41 @@
                             <div class="div-note-play">
                                 <div class="child-note-play">
                                     <div class="zoneAppNotes">
-
+                                        <span id="txtNote">Do</span>
                                     </div>
                                 </div>
                                 <div class="child-note-play">
-                                    fze
+                                    <button id="boutonPlay"><span id="txtBoutonPlay">Play</span></button>
+                                </div>
+                                <div class="child-note-play">
+                                    <p id="txtTempsNote">Temps choisi : 1</p>
                                 </div>
                             </div>
                         </div>
                         <!-- Boutons -->
                         <div class="child-boutons-notes">
-                            <div class="div-boutons-octave">
                                 <div class="child-boutons-octave">
-                                    <button class="boutonOctave">1er octave</button>
+                                    <button id="bouton1oct" class="boutonOctave boutonBinaire">1er octave</button>
                                 </div>
                                 <div class="child-boutons-octave">
-                                    <button class="boutonOctave">2eme octave</button>
+                                    <button id="bouton2oct" class="boutonOctave boutonBinaire">2eme octave</button>
                                 </div>
                                 <div class="child-boutons-octave">
-                                    <button class="boutonOctave">3eme octave</button>
+                                    <button id="bouton3oct" class="boutonOctave boutonBinaire">3eme octave</button>
                                 </div>
                                 <div class="child-boutons-octave">
-                                    <div class="div-deux-boutons">
-                                        <div class="child-deux-boutons">
-                                            <button class="boutonOctave">Avec alter</button>
-                                        </div>
-                                        <div class="child-deux-boutons">
-                                            <button class="boutonOctave">Sans alter</button>
-                                        </div>
-                                    </div>
+                                    <button id="boutonAlter" class="boutonOctave boutonBinaire"">Avec alter</button>
                                 </div>
                                 <div class="child-boutons-octave">
                                     <div class="div-plus-ou-moins">
                                         <div class="child-plus-ou-moins">
-                                            <button class="boutonOctave">-</button>
+                                            <button id="boutTempsMoins" class="boutonOctave">-</button>
                                         </div>
                                         <div class="child-plus-ou-moins texteOctave">
                                             <span>Temps</span>
                                         </div>
                                         <div class="child-plus-ou-moins">
-                                            <button class="boutonOctave">+</button>
+                                            <button id="boutTempsPlus" class="boutonOctave">+</button>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +101,7 @@
 
 
 
-    <script src="js/js.js"></script>
+    <script src="js/jsDoigt.js"></script>
 </body>
 
 </html>
